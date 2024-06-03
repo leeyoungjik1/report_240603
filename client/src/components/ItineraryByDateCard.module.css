@@ -1,0 +1,77 @@
+.itineraryByDateCard{
+    width: 700px;
+    /* height: 100%; */
+    display: flex;
+    flex-flow: column;
+    /* border: 1px solid darkorange; */
+    flex: 0 0 auto;
+    gap: 2rem;
+}
+.totalInfoBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.totalInfoBoxTitle{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: .5rem;
+}
+.totalInfoBoxDate{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.totalInfoBoxCost{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.totalInfoBoxWeather{
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.totalInfoBoxWeather img{
+    width: 50%;
+}
+.totalInfoBoxWeather>div{
+    font-size: .7rem;
+}
+.accommodationInfoContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+.accommodationInfoContainer>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accommodationInfoTitle{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.accommodationInfoContainer img{
+    width: 40%;
+    /* height: 200px; */
+}
+.destinationBoxContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}

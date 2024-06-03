@@ -1,0 +1,4 @@
+.filterBtns{
+    display: flex;
+    gap: .5rem;
+}

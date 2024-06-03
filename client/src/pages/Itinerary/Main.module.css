@@ -1,0 +1,7 @@
+.mainPage{
+    width: var(--base-width);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

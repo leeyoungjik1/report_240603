@@ -1,0 +1,50 @@
+.createPage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.createPage form{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+.title input{
+    width: 300px;
+}
+.city input{
+    width: 300px;
+}
+.dates{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+.dates>div{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.dates>div>input{
+    width: 150px;
+}
+.description textarea{
+    width: 500px;
+    height: 150px;
+}
+.createPage form>div:not(.dates){
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.isPublic>div{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}

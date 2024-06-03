@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    gap: 1rem;
+}
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    gap: 2rem;
+}
+.img{
+    width: 30%;
+    /* height: 150px; */
+    max-height: 250px;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.details>img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.infomation{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    gap: .2rem;
+}
+.infoTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infoTop>div{
+    display: flex;
+    /* flex-flow: column; */
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+.infoMain{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: .5rem;
+}
+.createdAt{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 5%; */
+}
